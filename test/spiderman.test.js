@@ -5,5 +5,6 @@ describe("Unit Testing for Spiderman class", () => {
         const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony Pictures")
 
         expect(andrewGarfield.name).toBe("Spiderman Sony")
+        expect(andrewGarfield.age).toBe(31)
     });
 })
